@@ -1,0 +1,10 @@
+Create S3 bucket
+Create lambda function python 3.8. Give permission to read/write from s3 bucket- check iam.json file.
+Add code () ~/Documents/trigger-
+	update timeout to 10 seconds
+Add trigger to the Lambda function from S3.
+	images/
+	.png
+Create folder in s3 bucket (/images)
+
+TEST - upload a file to /images. The filename cannot have any spaces. If it works properly, it should add a zip folder in the s3 bucket.
